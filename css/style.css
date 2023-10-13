@@ -191,9 +191,9 @@ a {
     border-radius: 10px;
 }
 
-.glow-on-hover:active {
+/* .glow-on-hover:active {
     color: #000
-}
+} */
 
 .glow-on-hover:active:after {
     background: transparent;
@@ -318,6 +318,7 @@ a {
     }
     .title_resume_text {
         width: 100%;
+        padding-top: 5px;
     }
     .information {
         width: 100%;
@@ -327,6 +328,9 @@ a {
     }
     .main_info {
         width: 100%;
+    }
+    .main_info_img {
+        height: 350px;
     }
     .main_info_img {
         width: 100%;
