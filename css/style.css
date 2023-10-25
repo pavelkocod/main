@@ -7,12 +7,30 @@ body {
     width: 1400px;
     height: 500px;
 }
+.active {
+    background-color: #cecece;
+    color: #000;
+}
 .title_resume {
     display: flex;
     justify-content: center;
     color: #fff;
     font-size: 50px;
     margin-bottom: 50px;
+}
+.header, .language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button_language {
+    border: 2px solid #fff;
+    width: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
 }
 .main_info {
     display: flex;
@@ -304,6 +322,13 @@ a {
 @media (max-width: 650px) {
     .container {
         width: 400px;
+    }
+    .header {
+        display: block;
+        margin-bottom: 15px;
+    }
+    .title_resume {
+        margin-bottom: 5px;
     }
     .dev_app_arr {
         display: block;
